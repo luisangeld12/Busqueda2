@@ -1,2 +1,2 @@
-# Busqueda2
+# Búsqueda2
 Búsqueda de costo uniforme 
