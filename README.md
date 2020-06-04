@@ -1,6 +1,6 @@
-## INTRODUCIÓN
+## INTRODUCCIÓN
 
-Este es un trabajo sobre la búsqueda de costo uniforme,pero antes se daran una intoducción de lo que son las busquedas.\\Las técnicas de busqueda son una serie de esquemas de representación del conocimiento,que mediantes diversos algoritmos nos permite resolver problemas desde el punto de vista de la inteligencia artificial.
+Este es un trabajo sobre la búsqueda de costo uniforme,pero antes se daran una intoducción de lo que son las busquedas.Las técnicas de busqueda son una serie de esquemas de representación del conocimiento,que mediantes diversos algoritmos nos permite resolver problemas desde el punto de vista de la inteligencia artificial.
 Es decir,son métodos en los que un agente puede seleccionar acciones en los ambientes deterministas,observables,estaticos y completamente conocidos.En tales casos, el agente puede construir secuencias de acciones que alcanzan sus objetivos; a este proceso se le llama busqueda.
 Los principales elementos que integran las técnicas de busqueda son:
 
