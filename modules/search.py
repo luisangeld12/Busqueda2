@@ -1,5 +1,24 @@
-#Usando la tabla de ciudades proporcionada por la mtra paty :)
-mapa = {
+from typing import List
+import heapq
+
+tree = []
+travel = []
+
+
+def busqueda(mapa, start, end) -> List[float]:
+    heapq.heappush(tree, start)
+    while len(tree) != 0:
+        city = heapq.heappop(tree)
+        if start == end:
+            return end
+        for vecino in mapa[city]:
+            if vecino not in travel:
+                heapq.heappush(tree, vecino)
+                travel.append(vecino)
+
+
+# Usando la tabla de ciudades proporcionada por la mtra paty :)
+map_city = {
     'A': [(95, 'S'), (52, 'M'), (100, 'N')],
     'B': [(114, 'X'), (61, 'V'), (62, 'J'), (49, 'Z')],
     'C': [(43, 'D'), (22, 'M'), (169, 'S')],
@@ -21,4 +40,3 @@ mapa = {
     'Y': [(25, 'F'), (44, 'J')],
     'Z': [(64, 'X'), (49, 'B'), (116, 'G')]
 }
-

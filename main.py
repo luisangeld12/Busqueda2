@@ -1,5 +1,7 @@
 from modules import search as sc
-import heapq
 
-print('\nEste es el camino menos costoso ', sc.mapa[A])
+print('Ingrese la letra correspondiente a la ciudad de inicio ')
+n = str(input())
 
+search_cost = sc.busqueda(sc.map_city, 'F', 'B')
+print(search_cost)
