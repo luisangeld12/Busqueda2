@@ -35,8 +35,10 @@ Dentro de estás encontramos:
 
 Las busquedas **heuristicas** son de un tipo inteligente ya que utiliza técnicas o mecanismos que se aproximan a la solución del problema de manera inteligente.
 Dentro de estás encontramos:
+
+
 * Búsqueda Tacaña 
-*A*
+*Aestrella
 * Templado Simulado
 * Búsqueda Tabú y 
 * la Búsqueda  Basada  en Reestricciones.
@@ -44,6 +46,7 @@ Dentro de estás encontramos:
 A continuación nos dedicaremos a la búsque de costo uniforme.
 
 ## **II. Metodología**
+
 La búsqueda de _costo uniforme (BCU)_ es un algoritmo de **búsqueda no informada** utilizado para recorrer sobre grafos el camino de costo mínimo entre un nodo raíz y un nodo destino, la búsqueda de costo uniforme expande el nodo _n_ con el camino de costo más pequeño. 
 
 La búsqueda de costo uniforme no se preocupa por el número de pasos que tiene un camino, pero si sobre su coste total. Por lo tanto, éste se meterá en un bucle infinito si expande un nodo que que tiene una acción de coste cero que conduzca de nuevo al mismo estado.
@@ -59,7 +62,13 @@ El algoritmo de esta búsqueda es el siguiente:
 
 Para mostrar la ejecusión de programa se dara un ejemplo o la solución de un problema.
 
-Una familia de (aqui va un lugar) desea tomar una vacaciones en las cuales quieren relajarse y a la vez desean conocer varios lugares,en la siguiente tabla muestra los recorridos que desea hacer.
+Una familia de (aqui va un lugar) desea tomar una vacaciones en las cuales quieren relajarse y a la vez desean conocer varios lugares,en la siguiente tabla muestra los recorridos que desean hacer y un mapa.
+
+
+
+![ejemplo](http://www.cs.us.es/~fsancho/images/2015-07/c685bc9e-178f-11e2-bb76-001e670c2818.jpg)
+
+
 
 | Punto inicial | Destino |
 | :-----------: | :-----: |
@@ -69,9 +78,11 @@ Una familia de (aqui va un lugar) desea tomar una vacaciones en las cuales quier
 | b4            |         |
 
 
+
 ## **IV. Conclusiones**
 
 Las búsquedas nos sirven para la solución de diferentes problemas unas mas optimas que otras,en la siguiente tabla se muestra la comparación del tiempo de ejecución de las siguientes tipos de búsqueda.
+
 
 | Comparación del tiempo de ejecución |
 | :---------------------------------:|
@@ -84,7 +95,9 @@ Las búsquedas nos sirven para la solución de diferentes problemas unas mas opt
 | A*                       |        |         |        |
 | Búsqueda Greedy          |        |         |        |
 
+
 ## **V. Bibliografía**
+
 
 [1]
 
