@@ -38,7 +38,6 @@ Dentro de estás encontramos:
 
 
 * Búsqueda Tacaña 
-
 *A*
 * Templado Simulado
 * Búsqueda Tabú y 
