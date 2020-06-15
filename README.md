@@ -38,7 +38,8 @@ Dentro de estás encontramos:
 
 
 * Búsqueda Tacaña 
-*Aestrella
+
+*A*
 * Templado Simulado
 * Búsqueda Tabú y 
 * la Búsqueda  Basada  en Reestricciones.
