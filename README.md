@@ -38,7 +38,7 @@ Dentro de estás encontramos:
 
 
 * Búsqueda Tacaña 
-*A*
+*Aestrella
 * Templado Simulado
 * Búsqueda Tabú y 
 * la Búsqueda  Basada  en Reestricciones.
@@ -62,6 +62,8 @@ Una familia de Arad desea tomar unas vacaciones y  desean vistar  Pitesti, a con
 
 
 ![ejemplo](http://www.cs.us.es/~fsancho/images/2015-07/c685bc9e-178f-11e2-bb76-001e670c2818.jpg)
+
+y desean saber que camino tomar para que el coste no sea tanto.
 
 
 El algoritmo de esta búsqueda es el siguiente: 
