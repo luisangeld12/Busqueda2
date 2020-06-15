@@ -38,7 +38,7 @@ Dentro de estás encontramos:
 
 
 * Búsqueda Tacaña 
-*Aestrella
+*A*
 * Templado Simulado
 * Búsqueda Tabú y 
 * la Búsqueda  Basada  en Reestricciones.
@@ -56,17 +56,19 @@ Podemos garantizar  completitud si el costo de cada paso es mayor o igual a algu
 ![ejemplo](https://image.slideserve.com/618935/ejemplo-de-b-squeda-de-coste-uniforme-l.jpg)
 
 
+
+Para mostrar como funciona la busqueda de costo  uniforme se dara un pequeño problema.
+Una familia de Arad desea tomar unas vacaciones y  desean vistar  Pitesti, a continuacion se muestra un mapa
+
+
+![ejemplo](http://www.cs.us.es/~fsancho/images/2015-07/c685bc9e-178f-11e2-bb76-001e670c2818.jpg)
+
+
 El algoritmo de esta búsqueda es el siguiente: 
 
 ## **III. Experimentos**
 
-Para mostrar la ejecusión de programa se dara un ejemplo o la solución de un problema.
-
-Una familia de (aqui va un lugar) desea tomar una vacaciones en las cuales quieren relajarse y a la vez desean conocer varios lugares,en la siguiente tabla muestra los recorridos que desean hacer y un mapa.
-
-
-
-![ejemplo](http://www.cs.us.es/~fsancho/images/2015-07/c685bc9e-178f-11e2-bb76-001e670c2818.jpg)
+Para mostrar la ejecusión de programa se dara un ejemplo o la solución de un problem , la siguiente tabla muetsra nuestros  recorridos que seseamos hacer
 
 
 
