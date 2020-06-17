@@ -59,6 +59,7 @@ caso del algoritmo es O(b<sup>[C*/épsilon]</sup> ) la puede ser mucho mayor que
 
 
 Demos un ejemplo de dicha búsqueda, para un mejor entendimiento, se pondrá un mapa.
+
 **EJEMPLO:**
 >Un turista desea viajar de Arad a Bucharest, pero desea viajar por carretera para conocer algunos lugares, pero desea tomar el recorrido con menos coste para así poder comprar algunos recuerdos de las ciudades que posiblemente visitará.
 
