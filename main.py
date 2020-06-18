@@ -11,5 +11,5 @@ search_cost = sc.busqueda(sc.map_city, start, end)
 end_time = time.time()
 all_time = round(end_time - start_time, 1000)
 
-print('\nPLa ruta de la búsqueda de costo uniforme es: ', search_cost)
+print('\nLa ruta de la búsqueda de costo uniforme es: ', search_cost)
 print('El tiempo que tardó en realizar la búsqueda es : ', all_time)
