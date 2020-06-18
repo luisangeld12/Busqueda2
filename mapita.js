@@ -26,7 +26,7 @@ var locations = {
 	'acayucan': {
 		'titulo': 'Acayucan',
 		'coordenadas': [17.94919, -94.91459],
-		'icon': creaIcono('images/a.png', 50, 37)
+		'icon': creaIcono('images/a.png', 50, 38)
 	},
 	'boca': {
 		'titulo': 'Boca del rio',
@@ -36,12 +36,12 @@ var locations = {
 	'coatzacoalcos': {
 		'titulo': 'Coatzacoalcos',
 		'coordenadas': [18.13447, -94.45898],
-		'icon': creaIcono('images/coatza.png', 40, 27)
+		'icon': creaIcono('images/coatza.png', 40, 28)
 	},
 	'aguadulce': {
 		'titulo': 'Agua dulce',
 		'coordenadas': [18.14259, -94.1436],
-		'icon': creaIcono('images/agua.png', 25, 40)
+		'icon': creaIcono('images/agua.png', 23, 36)
 	},
 	'huautla': {
 		'titulo': 'Huautla de Jiménez',
@@ -51,12 +51,12 @@ var locations = {
 	'fortin': {
 		'titulo': 'Fortín de la flores',
 		'coordenadas': [18.9017, -96.99896],
-		'icon': creaIcono('images/fortin.png', 50, 35)
+		'icon': creaIcono('images/fortin.png', 38, 50)
 	},
 	'vega': {
 		'titulo': 'Vega de Alatorre',
 		'coordenadas': [20.03034, -96.65044],
-		'icon': creaIcono('images/vega.png', 20, 40)
+		'icon': creaIcono('images/vega.png', 18, 40)
 	},
 	'huatusco': {
 		'titulo': 'Huatusco',
@@ -71,22 +71,22 @@ var locations = {
 	'minatitlan': {
 		'titulo': 'Minatitlán',
 		'coordenadas': [17.99392, -94.5466],
-		'icon': creaIcono('images/mina.png', 34, 40)
+		'icon': creaIcono('images/mina.png', 34, 39)
 	},
 	'nigromante': {
 		'titulo': 'El Nigromante',
 		'coordenadas': [17.76323, -95.75574],
-		'icon': creaIcono('images/nigromante.png', 40, 40)
+		'icon': creaIcono('images/nigromante.png', 40, 38)
 	},
 	'otatitlan': {
 		'titulo': 'Otatitlán',
 		'coordenadas': [18.18106, -96.03439],
-		'icon': creaIcono('images/otatitlan.png', 33, 33)
+		'icon': creaIcono('images/otatitlan.png', 33, 39)
 	},
 	'papantla': {
 		'titulo': 'Papantla',
 		'coordenadas': [20.45667, -97.31561],
-		'icon': creaIcono('images/papantla.png', 60, 50)
+		'icon': creaIcono('images/papantla.png', 67, 60)
 	},
 	'sanandres': {
 		'titulo': 'San Andrés Tuxtla',
@@ -96,12 +96,12 @@ var locations = {
 	'tecolutla': {
 		'titulo': 'Tecolutla',
 		'coordenadas': [20.47955, -97.01012],
-		'icon': creaIcono('images/tecolutla.png', 52, 12)
+		'icon': creaIcono('images/tecolutla.png', 40, 31)
 	},
 	'teziutlan': {
 		'titulo': 'Teziutlán',
 		'coordenadas': [19.81601, -97.35705],
-		'icon': creaIcono('images/te.png', 40, 27)
+		'icon': creaIcono('images/te.png', 40, 28)
 	},
 	'alvarado': {
 		'titulo': 'Alvarado',
@@ -116,12 +116,12 @@ var locations = {
 	'yanga': {
 		'titulo': 'Yanga',
 		'coordenadas': [18.82928, -96.80027],
-		'icon': creaIcono('images/yanga.png', 22, 44)
+		'icon': creaIcono('images/yanga.png', 20, 40)
 	},
 	'zempoala': {
 		'titulo': 'Zempoala',
 		'coordenadas': [19.44688, -96.40507],
-		'icon': creaIcono('images/zempoala.png', 45, 24)
+		'icon': creaIcono('images/zempoala.png', 45, 20)
 	},
 };
 
@@ -188,4 +188,4 @@ var ruta6 = [
 	locations.papantla.coordenadas,
 ];
 
-var polyline = L.polyline([ruta1, ruta2, ruta3, ruta4, ruta5, ruta6],{color: 'red'}).addTo(mymap);
+var polyline = L.polyline([ruta1, ruta2, ruta3, ruta4, ruta5, ruta6],{color: 'green'}).addTo(mymap);
