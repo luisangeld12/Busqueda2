@@ -157,6 +157,7 @@ var ruta1 = [
 	locations.nigromante.coordenadas,
 	locations.acayucan.coordenadas,
 	locations.minatitlan.coordenadas,
+	locations.coatzacoalcos.coordenadas,
 ];
 
 var ruta2 = [
