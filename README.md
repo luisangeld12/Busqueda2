@@ -106,6 +106,7 @@ FIN-COSTO
 ```
 **El código del anterior algoritmo es el siguiente:**
 
+
 ![IMG-20200618-WA0000](IMG-20200618-WA0000.jpg)
 
 
@@ -130,6 +131,7 @@ Para mostrar la ejecución del código se propone la tabla siguiente, que muestr
 
 **Tabla de las ciudades de veracruz**
 
+
 ![IMG-20200618-WA0007](IMG-20200618-WA0007.jpg)
 
 **Mapa de Veracruz**
@@ -139,7 +141,9 @@ Para ir al mapa da click [aqui]()
 El programa no muestra el costo total, pero en los siguientes recorridos se pondrá.
 
 **Primer recorrido de P a B**
+
 ![IMG-20200619-WA0003](IMG-20200619-WA0003.jpg)
+
 Asi la ruta con menor costo que nos muestra el programa es:
 
 | P     | T     | G     | Z     | B     |
@@ -149,7 +153,9 @@ Con un costo de: 248
 El tiempo que tardo el programa en encontrar la ruta es: 0.000031 segundos
 
 **Segundo recorrido de P a D**
+
 ![IMG-20200619-WA0004](IMG-20200619-WA0004.jpg)
+
 Asi la ruta con menor costo que nos muestra el programa es:
 
 
@@ -160,7 +166,9 @@ Con un costo de: 605
 El tiempo que tardo el programa en encontrar la ruta es: 0.000038 segundos
 
 **Tercer recorrido de D a S**
+
 ![IMG-20200619-WA0005](IMG-20200619-WA0005.jpg)
+
 Asi la ruta con menor costo que nos muestra el programa es:
 
 
@@ -172,7 +180,9 @@ Con un costo de: 212
 El tiempo que tardo el programa en encontrar la ruta es: 0.000033 segundos
 
 **Cuarto recorrido de X a V**
+
 ![IMG-20200619-WA0007](IMG-20200619-WA0007.jpg)
+
 Asi la ruta con menor costo que nos muestra el programa es:
 
 
@@ -184,7 +194,9 @@ Con un costo de: 174
 El tiempo que tardo el programa en encontrar la ruta es: 0.000034 segundos
 
 **Quinto recorrido de E a M**
+
 ![IMG-20200619-WA0008](IMG-20200619-WA0008.jpg)
+
 Asi la ruta con menor costo que nos muestra el programa es:
 
 
@@ -196,7 +208,9 @@ Con un costo de: 853
 El tiempo que tardo el programa en encontrar la ruta es: 0.000057 segundos
 
 **Sexto recorrido J a X**
+
 ![IMG-20200619-WA0006](IMG-20200619-WA0006.jpg)
+
 Asi la ruta con menor costo que nos muestra el programa es:
 
 
