@@ -136,7 +136,7 @@ Para mostrar la ejecución del código se propone la tabla siguiente, que muestr
 
 **Mapa de Veracruz**
 
-Para ir al mapa da click [aqui]()
+Para ir al mapa da click [aqui](https://luisangeld12.github.io/Busqueda2/)
  
 El programa no muestra el costo total, pero en los siguientes recorridos se pondrá.
 
