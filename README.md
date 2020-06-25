@@ -7,6 +7,7 @@ Las técnicas de búsqueda son una serie de esquemas de representación del cono
 
 **Ejemplo de esquema:**
 
+![ejemplo-de-b-squeda-de-coste-uniforme-l](https://user-images.githubusercontent.com/61295941/85778236-fd348680-b6e7-11ea-9069-d46650005f05.jpg)
 
 Es decir, son métodos en los que un agente puede seleccionar acciones en los ambientes deterministas, observables, estáticos y completamente conocidos, para poder encontrar la solución de un problema. En tales casos, el agente puede construir secuencias de acciones que alcanzan sus objetivos; a este proceso se le llama búsqueda.
 
