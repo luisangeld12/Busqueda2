@@ -77,7 +77,7 @@ El mapa siguiente, es un mapa de carreteras de parte de Rumanía.
 
 Sabemos que el punto inicial es Arad, ahora vemos que Arad tiene tres vecinos Timisoara,  Zerind y Sibiu, el de coste menor entre los tres es a Zerind, luego de Zerind va a Oradea, de Oradea va a Sibiu, de Sibiu a Rimnicu Vilcea, de Rimnicu  Vilcea a Pitesti y de Pitesti a Bucharest el cual es el destino de nuestro turista, podemos ver el recorrido y el coste total en la siguiente imagen.
 
-![1](1.jpg)
+![9](https://user-images.githubusercontent.com/61295941/85773347-5b129f80-b6e3-11ea-9d46-824197c89758.jpg)
 
 Como nos podemos dar cuenta, cuado estamos en Zerind, podemos tomar dos caminos los cuales son Arad y Oradea, vemos que toma el camino Zerind-Oradea ya que es el del menor coste, pero supongamos que el camino de Zerind-Arad fuera menor que Zerind-Oradea, no tomamos esa ruta ya que si la tomáramos nos  meteríamos en un ciclo infinito del cual no saldriamos, de igual forma podemos verlo para otros lugares, no contamos como vecino al lugar de dónde venimos (procedemos), para no meternos en un ciclo infinito.
 
@@ -106,8 +106,9 @@ FIN-COSTO
 ```
 **El código del anterior algoritmo es el siguiente:**
 
+![IMG-20200618-WA0000](https://user-images.githubusercontent.com/61295941/85773349-5b129f80-b6e3-11ea-9f58-ef290aafe4b8.jpg)
 
-![IMG-20200618-WA0000](IMG-20200618-WA0000.jpg)
+
 
 
 
@@ -132,7 +133,8 @@ Para mostrar la ejecución del código se propone la tabla siguiente, que muestr
 **Tabla de las ciudades de veracruz**
 
 
-![IMG-20200618-WA0007](IMG-20200618-WA0007.jpg)
+![IMG-20200618-WA0007](https://user-images.githubusercontent.com/61295941/85773350-5bab3600-b6e3-11ea-82fa-6f7206919cdf.jpg)
+
 
 **Mapa de Veracruz**
 
@@ -142,7 +144,9 @@ El programa no muestra el costo total, pero en los siguientes recorridos se pond
 
 **Primer recorrido de P a B**
 
-![IMG-20200619-WA0003](IMG-20200619-WA0003.jpg)
+
+![IMG-20200625-WA0006](https://user-images.githubusercontent.com/61295941/85773360-5d74f980-b6e3-11ea-90ee-404b9032d58a.jpg)
+
 
 Asi la ruta con menor costo que nos muestra el programa es:
 
@@ -155,7 +159,9 @@ El tiempo que tardo el programa en encontrar la ruta es: 0.000031 segundos
 
 **Segundo recorrido de P a D**
 
-![IMG-20200619-WA0004](IMG-20200619-WA0004.jpg)
+
+![IMG-20200625-WA0004](https://user-images.githubusercontent.com/61295941/85773355-5c43cc80-b6e3-11ea-86ea-dd4dddae5f08.jpg)
+
 
 Asi la ruta con menor costo que nos muestra el programa es:
 
@@ -169,7 +175,7 @@ El tiempo que tardo el programa en encontrar la ruta es: 0.000038 segundos
 
 **Tercer recorrido de D a S**
 
-![IMG-20200619-WA0005](IMG-20200619-WA0005.jpg)
+![IMG-20200625-WA0007](https://user-images.githubusercontent.com/61295941/85773342-59e17280-b6e3-11ea-91ea-5d1d65891fd0.jpg)
 
 Asi la ruta con menor costo que nos muestra el programa es:
 
@@ -184,7 +190,9 @@ El tiempo que tardo el programa en encontrar la ruta es: 0.000033 segundos
 
 **Cuarto recorrido de X a V**
 
-![IMG-20200619-WA0007](IMG-20200619-WA0007.jpg)
+
+![IMG-20200625-WA0008](https://user-images.githubusercontent.com/61295941/85773345-5a7a0900-b6e3-11ea-8f3f-35ec9436baaa.jpg)
+
 
 Asi la ruta con menor costo que nos muestra el programa es:
 
@@ -199,7 +207,9 @@ El tiempo que tardo el programa en encontrar la ruta es: 0.000034 segundos
 
 **Quinto recorrido de E a M**
 
-![IMG-20200619-WA0008](IMG-20200619-WA0008.jpg)
+![IMG-20200625-WA0003](https://user-images.githubusercontent.com/61295941/85773352-5bab3600-b6e3-11ea-885a-23535a88cbc0.jpg)
+
+
 
 Asi la ruta con menor costo que nos muestra el programa es:
 
@@ -214,7 +224,9 @@ El tiempo que tardo el programa en encontrar la ruta es: 0.000057 segundos
 
 **Sexto recorrido J a X**
 
-![IMG-20200619-WA0006](IMG-20200619-WA0006.jpg)
+
+![IMG-20200625-WA0005](https://user-images.githubusercontent.com/61295941/85773358-5cdc6300-b6e3-11ea-936b-491231306ca1.jpg)
+
 
 Asi la ruta con menor costo que nos muestra el programa es:
 
@@ -224,6 +236,7 @@ Asi la ruta con menor costo que nos muestra el programa es:
 | :---: | :---: | :---: | :---: | :---: |
 
 Con un costo de: 232
+
 El tiempo que tardo el programa en encontrar la ruta es: 0.000028 segundos
 
 Cabe mencionar que las búsquedas anteriores se hicieron también manualmente, y se tardó 10 minutos con 53 segundos en encontrarlas, al igual que hubo confusiones en recorridos lejanos.
@@ -258,6 +271,11 @@ En la siguiente tabla se muestra la comparación del tiempo de ejecución que ta
 * [3] Wikipedia: https://es.m.wikipedia.org/wiki/Búsqueda_de_costo_uniforme
 
 * [4] Técnicas de búsquedas:https://sites.google.com/a/uniguajira.edu.co/inteligencia-artificial/tecnicas
+
+
+
+
+
 
 
 
