@@ -73,7 +73,7 @@ Demos un ejemplo de dicha búsqueda, para un mejor entendimiento, se pondrá un 
 
 El mapa siguiente, es un mapa de carreteras de parte de Rumanía.
 
-![c](c.jpg)
+![c](https://user-images.githubusercontent.com/61295941/85775756-b2197400-b6e5-11ea-8334-2d75c9b49f4e.jpg)
 
 Sabemos que el punto inicial es Arad, ahora vemos que Arad tiene tres vecinos Timisoara,  Zerind y Sibiu, el de coste menor entre los tres es a Zerind, luego de Zerind va a Oradea, de Oradea va a Sibiu, de Sibiu a Rimnicu Vilcea, de Rimnicu  Vilcea a Pitesti y de Pitesti a Bucharest el cual es el destino de nuestro turista, podemos ver el recorrido y el coste total en la siguiente imagen.
 
