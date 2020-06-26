@@ -163,7 +163,7 @@ Asi la ruta con menor costo que nos muestra el programa es:
 
 Con un costo de: 248
 
-El tiempo que tardo el programa en encontrar la ruta es: 0.000031 segundos
+El tiempo que tardo el programa en encontrar la ruta es: 0.000039 segundos
 
 **Segundo recorrido de P a D**
 
@@ -179,7 +179,7 @@ Asi la ruta con menor costo que nos muestra el programa es:
 
 Con un costo de: 605
 
-El tiempo que tardo el programa en encontrar la ruta es: 0.000038 segundos
+El tiempo que tardo el programa en encontrar la ruta es: 0.000047 segundos
 
 **Tercer recorrido de D a S**
 
@@ -195,7 +195,7 @@ Asi la ruta con menor costo que nos muestra el programa es:
 
 Con un costo de: 212
 
-El tiempo que tardo el programa en encontrar la ruta es: 0.000033 segundos
+El tiempo que tardo el programa en encontrar la ruta es: 0.000029 segundos
 
 **Cuarto recorrido de X a V**
 
@@ -212,7 +212,7 @@ Asi la ruta con menor costo que nos muestra el programa es:
 
 Con un costo de: 174
 
-El tiempo que tardo el programa en encontrar la ruta es: 0.000034 segundos
+El tiempo que tardo el programa en encontrar la ruta es: 0.000042 segundos
 
 **Quinto recorrido de E a M**
 
@@ -229,7 +229,7 @@ Asi la ruta con menor costo que nos muestra el programa es:
 
 Con un costo de: 853
 
-El tiempo que tardo el programa en encontrar la ruta es: 0.000057 segundos
+El tiempo que tardo el programa en encontrar la ruta es: 0.000057segundos
 
 **Sexto recorrido J a X**
 
@@ -246,7 +246,7 @@ Asi la ruta con menor costo que nos muestra el programa es:
 
 Con un costo de: 232
 
-El tiempo que tardo el programa en encontrar la ruta es: 0.000028 segundos
+El tiempo que tardo el programa en encontrar la ruta es: 0.000039 segundos
 
 Cabe mencionar que las búsquedas anteriores se hicieron también manualmente, y se tardó 10 minutos con 53 segundos en encontrarlas, al igual que hubo confusiones en recorridos lejanos.
 
