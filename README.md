@@ -263,13 +263,13 @@ En la siguiente tabla se muestra la comparación del tiempo de ejecución que ta
 | Comparación del tiempo de ejecución |
 | :---------------------------------:|
 
-| Tipo de búsqueda         | Inicio | Destino  | Tiempo |
-| :----------------------: | :----: | :------: | :----: |
-| Búsquedas en amplitud    | Xalapa | Alvarado |        |
-| Búsqueda  costo uniforme | Xalapa | Alvarado |        |
-| Búsqueda en profundidad  | Xalapa | Alvarado |        |
-| A*                       | Xalapa | Alvarado |        |
-| Búsqueda Greedy          | Xalapa | Alvarado |        |
+| Tipo de búsqueda         | Inicio   | Destino    | Tiempo (seg) |
+| :----------------------: | :------: | :--------: | :----------: |
+| Búsquedas en amplitud    | Papantla | Agua Dulce | 0.000071     |
+| Búsqueda  costo uniforme | Papantla | Agua Dulce | 0.000038     |
+| Búsqueda en profundidad  | Papantla | Agua Dulce | 0.0000991700 |
+| A*                       | Papantla | Agua Dulce |  |
+| Búsqueda Greedy          | Papantla | Agua Dulce | 0.0013936119 |
 
 ## **V. Bibliografía**
 
