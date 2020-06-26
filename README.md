@@ -109,8 +109,6 @@ FIN-COSTO
            
 ```
 
-![algorithm](https://github.com/luisangeld12/Busqueda2/blob/master/tests/algorithm.png)
-
 
 
 
