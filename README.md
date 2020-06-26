@@ -3,22 +3,22 @@
    
   ## **I. Introducción**
 Este es un trabajo sobre la <u>_búsqueda de costo uniforme_</u>  , pero antes se dará una introducción de lo que son las **búsquedas**. 
-Las técnicas de búsqueda son una serie de esquemas de representación del conocimiento, que mediante diversos algoritmos nos permite resolver problemas desde el punto de vista de la inteligencia artificial.
+Las búsqueda son una serie de esquemas que ayudan a la representación de diversos algoritmos, los cuales nos permite resolver problemas y dan una idea a lo que se refiere el algoritmo.
 
 **Ejemplo de esquema:**
 
 ![ejemplo-de-b-squeda-de-coste-uniforme-l](https://user-images.githubusercontent.com/61295941/85778236-fd348680-b6e7-11ea-9069-d46650005f05.jpg)
 
-Es decir, son métodos en los que un agente puede seleccionar acciones en los ambientes deterministas, observables, estáticos y completamente conocidos, para poder encontrar la solución de un problema. En tales casos, el agente puede construir secuencias de acciones que alcanzan sus objetivos; a este proceso se le llama búsqueda.
 
-Los principales elementos que integran las técnicas de búsqueda son:
+Es decir, son métodos en los que un agente puede seleccionar acciones, para poder encontrar la solución de un problema. En tales casos, el agente puede construir secuencias de acciones que nos permiten alcanzar los objetivos; a este proceso se le llama búsqueda.
+
+Los elementos que integran las búsqueda son:
 
 * CONJUNTO DE ESTADO:
 Todas las configuraciones posibles en el dominio.
 
-
 * ESTADOS INICIALES:
-Estados desde los que partimos.
+Estados desde los que partimos, es decir nuestro punto inicial.
 
 * ESTADOS FINALES:
 Las soluciones del problema.
@@ -31,7 +31,8 @@ Mecanismo que nos permite evolucionar de un estado a otro mediante un algoritmo.
 
 Dentro de las búsquedas podemos encontrar dos tipos, las **no informadas ó búsqueda a ciegas** y las **heurísticas**.
 
-Las búsquedas **no informadas** son aquellas que intentan encontrar la primera solución sin importar que tan óptima sea, no le importa la cantidad de pasos que pueda llevar.
+Las búsquedas **no informadas** son aquellas que intentan encontrar la primera solución sin importar que tan óptima sea, es decir; no le importa la cantidad de pasos que pueda llevar, nos puede dar una solución demaciado larga, cuando a lo mejor habia una solución mas corta y eficaz.
+
 Dentro de estás encontramos:
 
   * Exhaustiva
@@ -43,7 +44,8 @@ Dentro de estás encontramos:
   * Profundización iterativa 
   * Bidireccional.
 
-Las búsquedas **heurísticas** son de un tipo inteligente ya que utiliza técnicas o mecanismos que se aproximan a la solución del problema de manera inteligente,es decir encuentran la solución en la menor cantidad de paso.
+Las búsquedas **heurísticas** son de un tipo inteligente ya que utiliza técnicas o mecanismos que se aproximan a la solución del problema de manera eficiente,es decir encuentran la solución en la menor cantidad de paso.
+
 Dentro de estás encontramos:
 * Búsqueda Tacaña 
 * A* 
@@ -51,25 +53,26 @@ Dentro de estás encontramos:
 * Búsqueda Tabú
 * Búsqueda  Basada  en Restricciones.
 
+
 A continuación nos dedicaremos a la búsqueda de costo uniforme.
 
  
 
 ## **II. Metodología**
-La búsqueda de _costo uniforme (BCU)_ es un algoritmo de **búsqueda no informada** utilizado para recorrer sobre grafos el camino de costo mínimo entre un nodo raíz y un nodo destino, la búsqueda de costo uniforme expande el nodo **_n_** con el camino de costo más pequeño.
 
-La búsqueda de _costo uniforme_ no se preocupa por el número de pasos que tiene un camino, pero si sobre su coste total. Por lo tanto, éste se meterá en un bucle infinito si expande un nodo que tiene una acción de coste cero que conduzca de nuevo al mismo estado.
+La búsqueda de _costo uniforme (BCU)_ es un algoritmo de **búsqueda no informada** utilizado para encontrar el camino de costo mínimo entre un punto inicial y un punto destino, la búsqueda de costo uniforme expande el nodo **_n_** (un punto inicial) con el camino de costo más pequeño.
 
-Podemos garantizar  completitud si el costo de cada paso es mayor o igual a alguna constante positiva pequeña épsilon. Esta condición es también suficiente para asegurar optimización. Significa que el costo de un  camino siempre aumenta cuando vamos por él. De esta propiedad, es fácil ver que el algoritmo expande nodos que incrementan el coste del camino. Por lo tanto, el primer nodo objetivo seleccionado para la expansión es la solución óptima.
+La búsqueda de _costo uniforme_ no se preocupa por el número de pasos que tiene que tomar, pero si sobre su costo total. Por lo tanto, éste se meterá en un ciclo infinito si expande un nodo que tiene una acción de costo cero que conduzca de nuevo al mismo punto inicial.
 
-La búsqueda de _costo uniforme_ está dirigida por los costos de los caminos más que por las profundidades, entonces su complejidad no puede ser fácilmente caracterizada en términos de **_b_** y **_d_**  . En su lugar _**C***_ es el costo de la solución óptima, y se supone que cada acción cuesta al menos épsilon. Entonces la complejidad en tiempo y espacio del peor
-caso del algoritmo es O(b<sup>[C*/épsilon]</sup>) la puede ser mucho mayor que **_b_<sup>_d_</sup>** Esto es porque la búsqueda de coste uniforme, y a menudo lo hace, explora los árboles grandes en pequeños pasos antes de explorar caminos que implican pasos grandes y quizá útiles. Cuando todos los costos son iguales, desde luego, la _b_<sup>[C*/épsilon]</sup> ) es justamente **_b_<sup>_d_</sup>** .
- 
+Podemos garantizar  funcionalidad si el costo de cada paso es mayor o igual a alguna constante positiva pequeña, a la cual llamaremos  épsilon. Esta condición es suficiente para asegurar optimización. Significa que el costo de un  camino siempre aumenta cuando vamos por él, haciendo que el algoritmo expanda nodos que incrementan el costo del camino. Por lo tanto, el primer nodo objetivo (punto destino) seleccionado para la expansión es la solución más eficiente.
+
+La búsqueda de _costo uniforme_ está dirigida por los costos de los caminos más que por las profundidades.
 
 
 Demos un ejemplo de dicha búsqueda, para un mejor entendimiento, se pondrá un mapa.
 
 **EJEMPLO:**
+
 >Un turista desea viajar de Arad a Bucharest, pero desea viajar por carretera para conocer algunos lugares, pero desea tomar el recorrido con menos coste, para así poder comprar algunos recuerdos de las ciudades que posiblemente visitará.
 
 El mapa siguiente, es un mapa de carreteras de parte de Rumanía.
