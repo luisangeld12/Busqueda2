@@ -109,8 +109,9 @@ FIN-COSTO
            
 ```
 
+![algorithm](https://user-images.githubusercontent.com/61295941/85809256-de041c00-b71c-11ea-9ef3-1e377105fc69.png)
 
-![alg](https://user-images.githubusercontent.com/61295941/85799676-3b8c6e80-b705-11ea-8ee2-485ec5ea76a1.jpg)
+
 
 
 **El código del anterior algoritmo es el siguiente:**
