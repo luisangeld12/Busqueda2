@@ -109,14 +109,14 @@ FIN-COSTO
            
 ```
 
-![algorithm](https://user-images.githubusercontent.com/61295941/85809256-de041c00-b71c-11ea-9ef3-1e377105fc69.png)
+![algorithm](https://github.com/luisangeld12/Busqueda2/blob/master/tests/algorithm.png)
 
 
 
 
 **El código del anterior algoritmo es el siguiente:**
 
-![IMG-20200618-WA0000](https://user-images.githubusercontent.com/61295941/85773349-5b129f80-b6e3-11ea-9f58-ef290aafe4b8.jpg)
+![code](https://github.com/luisangeld12/Busqueda2/blob/master/tests/code.png)
 
 
 
@@ -155,7 +155,7 @@ El programa no muestra el costo total, pero en los siguientes recorridos se pond
 **Primer recorrido de P a B**
 
 
-![IMG-20200625-WA0006](https://user-images.githubusercontent.com/61295941/85773360-5d74f980-b6e3-11ea-90ee-404b9032d58a.jpg)
+![tests1](https://github.com/luisangeld12/Busqueda2/blob/master/tests/tests1.png)
 
 
 Asi la ruta con menor costo que nos muestra el programa es:
@@ -170,7 +170,7 @@ El tiempo que tardo el programa en encontrar la ruta es: 0.000031 segundos
 **Segundo recorrido de P a D**
 
 
-![IMG-20200625-WA0004](https://user-images.githubusercontent.com/61295941/85773355-5c43cc80-b6e3-11ea-86ea-dd4dddae5f08.jpg)
+![test2](https://github.com/luisangeld12/Busqueda2/blob/master/tests/tests2.png)
 
 
 Asi la ruta con menor costo que nos muestra el programa es:
@@ -185,7 +185,8 @@ El tiempo que tardo el programa en encontrar la ruta es: 0.000038 segundos
 
 **Tercer recorrido de D a S**
 
-![IMG-20200625-WA0007](https://user-images.githubusercontent.com/61295941/85773342-59e17280-b6e3-11ea-91ea-5d1d65891fd0.jpg)
+![tests3](https://github.com/luisangeld12/Busqueda2/blob/master/tests/tests3.png)
+
 
 Asi la ruta con menor costo que nos muestra el programa es:
 
@@ -201,7 +202,7 @@ El tiempo que tardo el programa en encontrar la ruta es: 0.000033 segundos
 **Cuarto recorrido de X a V**
 
 
-![IMG-20200625-WA0008](https://user-images.githubusercontent.com/61295941/85773345-5a7a0900-b6e3-11ea-8f3f-35ec9436baaa.jpg)
+![tests4](https://github.com/luisangeld12/Busqueda2/blob/master/tests/tests4.png)
 
 
 Asi la ruta con menor costo que nos muestra el programa es:
@@ -217,7 +218,7 @@ El tiempo que tardo el programa en encontrar la ruta es: 0.000034 segundos
 
 **Quinto recorrido de E a M**
 
-![IMG-20200625-WA0003](https://user-images.githubusercontent.com/61295941/85773352-5bab3600-b6e3-11ea-885a-23535a88cbc0.jpg)
+![tests5](https://github.com/luisangeld12/Busqueda2/blob/master/tests/tests5.png)
 
 
 
@@ -235,7 +236,7 @@ El tiempo que tardo el programa en encontrar la ruta es: 0.000057 segundos
 **Sexto recorrido J a X**
 
 
-![IMG-20200625-WA0005](https://user-images.githubusercontent.com/61295941/85773358-5cdc6300-b6e3-11ea-936b-491231306ca1.jpg)
+![tests6](https://github.com/luisangeld12/Busqueda2/blob/master/tests/tests6.png)
 
 
 Asi la ruta con menor costo que nos muestra el programa es:
