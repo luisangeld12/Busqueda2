@@ -87,6 +87,29 @@ Como nos podemos dar cuenta, cuado estamos en Zerind, podemos tomar dos caminos 
 
 Podemos definir el algoritmo de _Búsqueda De Costo Uniforme_ como se presenta a continuación.
 
+```
+Costo(mapa,inicio,destino)-> lista
+      arbol(inicio)
+      recorrido(inicio,None)
+      MIENTRAS noVacio(arbol) HACER
+           ciudad <- sacar.arbol()
+           SI ciudad es destino ENTONCES
+                 RETORNAR ruta
+           FIN-SI
+           PARACADA vecinoOrdenadoDeCiudad HACER:
+               SI vecino no existe  en recorrido ENTONCES
+                    agrega.arbol(vecino)
+                    agrega.recorrido(vecino,ciudad)
+                    SALIDA-FORZADA
+               FIN-SI
+           FIN-PARA
+      FIN-MIENTRAS
+FIN-COSTO
+               
+           
+```
+
+
 ![alg](https://user-images.githubusercontent.com/61295941/85799676-3b8c6e80-b705-11ea-8ee2-485ec5ea76a1.jpg)
 
 
