@@ -267,8 +267,8 @@ En la siguiente tabla se muestra la comparación del tiempo de ejecución que ta
 | :----------------------: | :------: | :--------: | :----------: |
 | Búsquedas en amplitud    | Papantla | Agua Dulce | 0.000071     |
 | Búsqueda  costo uniforme | Papantla | Agua Dulce | 0.000038     |
-| Búsqueda en profundidad  | Papantla | Agua Dulce | 0.00009917 |
-| A*                       | Papantla | Agua Dulce |  |
+| Búsqueda en profundidad  | Papantla | Agua Dulce | 0.00009917   |
+| A*                       | Papantla | Agua Dulce | 0.002065953  |
 | Búsqueda Greedy          | Papantla | Agua Dulce | 0.0013936119 |
 
 ## **V. Bibliografía**
